@@ -9,7 +9,7 @@ class DashboardController extends Controller
 {
     public function index() 
     {
-        $fakultas = Fakultas::first();
+        // $fakultas = Fakultas::first();
         
         return view('welcome',);
     }
